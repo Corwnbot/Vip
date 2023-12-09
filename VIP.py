@@ -1,18 +1,17 @@
 # Modul
 import requests,bs4,json,os,sys,random,datetime,time,re
-import urllib3,rich,base64,uuid
+import urllib3,rich,base64
 from rich.table import Table as me
 from rich.console import Console as sol
 from bs4 import BeautifulSoup as sop
 from concurrent.futures import ThreadPoolExecutor as tred
 from rich.console import Group as gp
 from rich.panel import Panel as nel
-from rich import print as cetak
 from rich.markdown import Markdown as mark
 from rich.columns import Columns as col
-from rich import print as rprint
 from rich import pretty
 from rich.text import Text as tekz
+from time import localtime as lt
 pretty.install()
 CON=sol()
 #useragent
